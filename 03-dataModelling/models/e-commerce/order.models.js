@@ -23,7 +23,7 @@ const orderSchema = new mongoose.Schema({
    orderItems: {
     type: [orderItemSchema]
    },
-   address: {
+   address: {           // you can make address schema for e.g adress, pincode, landmark etc 
     type: String,
     required: true
    },
